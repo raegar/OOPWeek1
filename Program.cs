@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ConsoleApplication
 {
@@ -6,6 +7,7 @@ namespace ConsoleApplication
     {
         public static void Main(string[] args)
         {
+            List<int> myIntList = new List<int>();
             string username = "Jamie";
             Console.WriteLine("Hello " + username);
             SayThis("Object Oriented Programming");
