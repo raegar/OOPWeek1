@@ -8,6 +8,13 @@ namespace ConsoleApplication
         {
             string username = "Jamie";
             Console.WriteLine("Hello " + username);
+            SayThis("Object Oriented Programming");
+            SayThis("Is awesome!");
+        }
+
+        public static void SayThis(string aSentence)
+        {
+            Console.WriteLine(aSentence);
         }
     }
 }
